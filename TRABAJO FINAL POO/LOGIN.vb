@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class LOGIN
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim Clave As String
         Clave = txtClave.Text

@@ -31,11 +31,12 @@
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        My.Computer.Audio.Play(My.Resources.steam, AudioPlayMode.Background)
         PRINCIPAL.Show()
         Close()
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        MessageBox.Show("ALANYA ASPUR, MARCO ANTONIO", "DESARROLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show("ALANYA ASPUR, MARCO ANTONIO", "DESARROLLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 End Class

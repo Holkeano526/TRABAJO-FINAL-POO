@@ -91,11 +91,11 @@
     <Compile Include="CALENDARIO.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="LOGIN.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="juego_vaso.Designer.vb">
@@ -160,8 +160,8 @@
     <EmbeddedResource Include="CALENDARIO.resx">
       <DependentUpon>CALENDARIO.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="juego_vaso.resx">
       <DependentUpon>juego_vaso.vb</DependentUpon>
