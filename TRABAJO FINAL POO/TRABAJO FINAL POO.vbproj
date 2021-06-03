@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1B7CA00-E90D-4F90-A730-C0B1806E6E7A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TRABAJO_FINAL_POO.My.MyApplication</StartupObject>
+    <RootNamespace>TRABAJO_FINAL_POO</RootNamespace>
+    <AssemblyName>TRABAJO FINAL POO</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TRABAJO FINAL POO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TRABAJO FINAL POO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="buscador2.Designer.vb">
+      <DependentUpon>buscador2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="buscador2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CALCULADORA.Designer.vb">
+      <DependentUpon>CALCULADORA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CALCULADORA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CALENDARIO.Designer.vb">
+      <DependentUpon>CALENDARIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CALENDARIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juego_vaso.Designer.vb">
+      <DependentUpon>juego_vaso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="juego_vaso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musica.Designer.vb">
+      <DependentUpon>Musica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Musica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="dibujo.Designer.vb">
+      <DependentUpon>dibujo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dibujo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRINCIPAL.Designer.vb">
+      <DependentUpon>PRINCIPAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRINCIPAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.vb">
+      <DependentUpon>test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="test.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIDEO PRINCIPAL.Designer.vb">
+      <DependentUpon>VIDEO PRINCIPAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIDEO PRINCIPAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Video.Designer.vb">
+      <DependentUpon>Video.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Video.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="buscador2.resx">
+      <DependentUpon>buscador2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CALCULADORA.resx">
+      <DependentUpon>CALCULADORA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CALENDARIO.resx">
+      <DependentUpon>CALENDARIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juego_vaso.resx">
+      <DependentUpon>juego_vaso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musica.resx">
+      <DependentUpon>Musica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dibujo.resx">
+      <DependentUpon>dibujo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRINCIPAL.resx">
+      <DependentUpon>PRINCIPAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIDEO PRINCIPAL.resx">
+      <DependentUpon>VIDEO PRINCIPAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Video.resx">
+      <DependentUpon>Video.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\89357.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\893571.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo visual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-reproducir-video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yt1s.com - Bailando Solo  Los Bunkers.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bailando solo.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bailando solo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-de-encendido-apagado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo visual arreglado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rompecabezas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reproduccion-de-video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nota-musical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculadora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuaderno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peligro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yt1s.com - Discord notification  sound effect %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discord.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steam.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apagado.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VASO Y BOLA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18.3 Mundo digital.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VASO ABIERTO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VASO CERRADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo joel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mathematical-basic-signs-of-plus-and-minus-with-a-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\divide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raiz-cuadrada-de-x-signos-matematicos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letra-x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simbolo-constante-matematico-pi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo jose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simbolo-constante-matematico-pi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raiz-cuadrada-de-x-signos-matematicos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo jose1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mathematical-basic-signs-of-plus-and-minus-with-a-slash1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peligro-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo jose 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paint-palette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web-search-engine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

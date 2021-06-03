@@ -1,0 +1,26 @@
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\bin\Debug\TRABAJO FINAL POO.exe.config
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\bin\Debug\TRABAJO FINAL POO.exe
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\bin\Debug\TRABAJO FINAL POO.pdb
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\bin\Debug\TRABAJO FINAL POO.xml
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.vbprojAssemblyReference.cache
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.Form1.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.Resources.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.vbproj.GenerateResource.cache
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.vbproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.exe
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.xml
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.pdb
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.PRINCIPAL.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.Musica.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\bin\Debug\Interop.WMPLib.dll
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\Interop.WMPLib.dll
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.vbproj.ResolveComReference.cache
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.Video.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.VIDEO_PRINCIPAL.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.juego_vaso.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.CALCULADORA.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.CALENDARIO.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.dibujo.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.buscador2.resources
