@@ -137,12 +137,6 @@
     <Compile Include="PRINCIPAL.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="test.Designer.vb">
-      <DependentUpon>test.vb</DependentUpon>
-    </Compile>
-    <Compile Include="test.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="VIDEO PRINCIPAL.Designer.vb">
       <DependentUpon>VIDEO PRINCIPAL.vb</DependentUpon>
     </Compile>
