@@ -13,7 +13,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
+        My.Computer.Audio.Play(My.Resources.steam, AudioPlayMode.Background)
         AxWindowsMediaPlayer1.Ctlcontrols.stop()
         VIDEO_PRINCIPAL.Show()
         Close()
