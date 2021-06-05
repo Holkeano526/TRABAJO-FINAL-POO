@@ -1,5 +1,6 @@
 ﻿Public Class Musica
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        My.Computer.Audio.Play(My.Resources.steam, AudioPlayMode.Background)
         PRINCIPAL.Show()
         Close()
 
@@ -32,6 +33,6 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        MessageBox.Show("PACHECO VARGAS ANTHONY ROBERTO", "DESARROLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show("PACHECO VARGAS ANTHONY ROBERTO", "DESARROLLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 End Class

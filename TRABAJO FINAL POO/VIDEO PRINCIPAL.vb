@@ -16,7 +16,7 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        MessageBox.Show("PACHECO VARGAS ANTHONY ROBERTO", "DESARROLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show("PACHECO VARGAS ANTHONY ROBERTO", "DESARROLLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub VIDEO_PRINCIPAL_Load(sender As Object, e As EventArgs) Handles MyBase.Load

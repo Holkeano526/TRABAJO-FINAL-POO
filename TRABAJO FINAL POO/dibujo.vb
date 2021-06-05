@@ -98,6 +98,7 @@
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        My.Computer.Audio.Play(My.Resources.steam, AudioPlayMode.Background)
         PRINCIPAL.Show()
         Close()
     End Sub

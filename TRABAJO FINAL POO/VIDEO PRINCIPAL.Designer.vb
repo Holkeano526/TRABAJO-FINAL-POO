@@ -22,6 +22,7 @@ Partial Class VIDEO_PRINCIPAL
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(VIDEO_PRINCIPAL))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnMusica = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -99,6 +100,7 @@ Partial Class VIDEO_PRINCIPAL
         Me.Controls.Add(Me.btnMusica)
         Me.Controls.Add(Me.Label1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "VIDEO_PRINCIPAL"
         Me.Text = "VIDEO_PRINCIPAL"
         Me.ResumeLayout(False)
