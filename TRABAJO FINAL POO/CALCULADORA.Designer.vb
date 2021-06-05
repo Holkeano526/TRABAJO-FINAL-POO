@@ -22,6 +22,7 @@ Partial Class CALCULADORA
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CALCULADORA))
         Me.txtresultado = New System.Windows.Forms.TextBox()
         Me.txtpantalla = New System.Windows.Forms.TextBox()
         Me.btnporcentaje = New System.Windows.Forms.Button()
@@ -459,6 +460,7 @@ Partial Class CALCULADORA
         Me.Controls.Add(Me.btnporcentaje)
         Me.Controls.Add(Me.txtpantalla)
         Me.Controls.Add(Me.txtresultado)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "CALCULADORA"
         Me.Text = "CALCULADORA"
         Me.ResumeLayout(False)

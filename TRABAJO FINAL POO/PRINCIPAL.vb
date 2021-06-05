@@ -32,7 +32,7 @@
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        MessageBox.Show("PACHECO VARGAS ANTHONY ROBERTO" + vbCrLf + "RAMOS CORDOVA JOEL ISAAC" + vbCrLf + "ANTEZANO MEJIA JOSE LUIS", "DESARROLLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show("PACHECO VARGAS ANTHONY ROBERTO" + vbCrLf + "RAMOS CORDOVA JOEL ISAAC" + vbCrLf + "ANTEZANO MEJIA JOSE LUIS" + vbCrLf + "ALANYA ASPUR, MARCO ANTONIO", "DESARROLLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub PRINCIPAL_Load(sender As Object, e As EventArgs) Handles MyBase.Load

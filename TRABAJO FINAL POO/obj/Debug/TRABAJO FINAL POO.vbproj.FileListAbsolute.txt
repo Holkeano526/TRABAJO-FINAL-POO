@@ -3,7 +3,6 @@ C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\bin\Debug\TR
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\bin\Debug\TRABAJO FINAL POO.pdb
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\bin\Debug\TRABAJO FINAL POO.xml
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.vbprojAssemblyReference.cache
-C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.Form1.resources
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.Resources.resources
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.vbproj.GenerateResource.cache
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO FINAL POO.vbproj.CoreCompileInputs.cache
@@ -24,3 +23,4 @@ C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TR
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.CALENDARIO.resources
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.dibujo.resources
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.buscador2.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.LOGIN.resources
