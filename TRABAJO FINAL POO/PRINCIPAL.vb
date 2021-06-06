@@ -32,7 +32,7 @@
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        MessageBox.Show("PACHECO VARGAS ANTHONY ROBERTO" + vbCrLf + "RAMOS CORDOVA JOEL ISAAC" + vbCrLf + "ANTEZANO MEJIA JOSE LUIS" + vbCrLf + "ALANYA ASPUR, MARCO ANTONIO", "DESARROLLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show("PACHECO VARGAS ANTHONY ROBERTO" + vbCrLf + "RAMOS CORDOVA JOEL ISAAC" + vbCrLf + "ANTEZANO MEJIA JOSE LUIS" + vbCrLf + "ALANYA ASPUR, MARCO ANTONIO" + vbCrLf + "FERNANDEZ MEREZ ALBERTO JESUS", "DESARROLLADO POR: ", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub PRINCIPAL_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -90,6 +90,28 @@
             ProgressBar1.Value = i
         Next
         buscador2.Show()
+        Hide()
+        ProgressBar1.Value = 0
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        My.Computer.Audio.Play(My.Resources.steam, AudioPlayMode.Background)
+        ProgressBar1.Maximum = 99999
+        For i = 0 To 99999
+            ProgressBar1.Value = i
+        Next
+        CRONOMETRO.Show()
+        Hide()
+        ProgressBar1.Value = 0
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        My.Computer.Audio.Play(My.Resources.steam, AudioPlayMode.Background)
+        ProgressBar1.Maximum = 99999
+        For i = 0 To 99999
+            ProgressBar1.Value = i
+        Next
+        RELOJ.Show()
         Hide()
         ProgressBar1.Value = 0
     End Sub

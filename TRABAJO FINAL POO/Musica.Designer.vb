@@ -22,6 +22,7 @@ Partial Class Musica
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Musica))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.btnMusica = New System.Windows.Forms.Button()
@@ -60,7 +61,7 @@ Partial Class Musica
         Me.btnMusica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnMusica.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMusica.ForeColor = System.Drawing.Color.Transparent
-        Me.btnMusica.Location = New System.Drawing.Point(121, 51)
+        Me.btnMusica.Location = New System.Drawing.Point(119, 57)
         Me.btnMusica.Name = "btnMusica"
         Me.btnMusica.Size = New System.Drawing.Size(44, 43)
         Me.btnMusica.TabIndex = 2
@@ -71,7 +72,7 @@ Partial Class Musica
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Nunito Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(221, 62)
+        Me.Label1.Location = New System.Drawing.Point(219, 68)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(214, 21)
         Me.Label1.TabIndex = 3
@@ -80,11 +81,11 @@ Partial Class Musica
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.BackgroundImage = Global.TRABAJO_FINAL_POO.My.Resources.Resources.pause
+        Me.Button2.BackgroundImage = Global.TRABAJO_FINAL_POO.My.Resources.Resources.boton_de_pausa_de_video
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.ForeColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(171, 51)
+        Me.Button2.Location = New System.Drawing.Point(169, 57)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(44, 43)
         Me.Button2.TabIndex = 4
@@ -136,7 +137,7 @@ Partial Class Musica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.TRABAJO_FINAL_POO.My.Resources.Resources.fondo_visual
+        Me.BackgroundImage = Global.TRABAJO_FINAL_POO.My.Resources.Resources.fondo_visual_arreglado
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Button3)
@@ -148,6 +149,7 @@ Partial Class Musica
         Me.Controls.Add(Me.btnMusica)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Button1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Musica"
         Me.Text = "Musica"
         Me.ResumeLayout(False)
