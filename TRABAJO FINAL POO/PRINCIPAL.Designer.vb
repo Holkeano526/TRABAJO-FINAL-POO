@@ -34,6 +34,8 @@ Partial Class PRINCIPAL
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnMusica
@@ -172,6 +174,32 @@ Partial Class PRINCIPAL
         Me.Button8.TabIndex = 10
         Me.Button8.UseVisualStyleBackColor = False
         '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.Transparent
+        Me.Button9.BackgroundImage = Global.TRABAJO_FINAL_POO.My.Resources.Resources.cronometro
+        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button9.ForeColor = System.Drawing.Color.Transparent
+        Me.Button9.Location = New System.Drawing.Point(371, 325)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(63, 59)
+        Me.Button9.TabIndex = 11
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.Transparent
+        Me.Button10.BackgroundImage = Global.TRABAJO_FINAL_POO.My.Resources.Resources.reloj_de_pared
+        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button10.ForeColor = System.Drawing.Color.Transparent
+        Me.Button10.Location = New System.Drawing.Point(588, 325)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(63, 59)
+        Me.Button10.TabIndex = 12
+        Me.Button10.UseVisualStyleBackColor = False
+        '
         'PRINCIPAL
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -179,6 +207,8 @@ Partial Class PRINCIPAL
         Me.BackgroundImage = Global.TRABAJO_FINAL_POO.My.Resources.Resources.fondo_visual
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.ProgressBar1)
@@ -209,4 +239,6 @@ Partial Class PRINCIPAL
     Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button10 As Button
 End Class

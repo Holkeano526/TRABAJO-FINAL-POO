@@ -37,6 +37,11 @@ TRABAJO FINAL POO
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.alberto">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.apagado">
 <summary>
   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
@@ -63,6 +68,11 @@ TRABAJO FINAL POO
 </summary>
 </member>
 <member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.calendario__1_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.cronometro">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -98,6 +108,11 @@ TRABAJO FINAL POO
 </summary>
 </member>
 <member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.fondo_alanya">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.fondo_alberto">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -182,6 +197,11 @@ TRABAJO FINAL POO
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.pause__1_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.peligro">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -217,12 +237,27 @@ TRABAJO FINAL POO
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.recycle">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.reloj_de_pared">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.reproduccion_de_video">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.rompecabezas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TRABAJO_FINAL_POO.My.Resources.Resources.round_play_button">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

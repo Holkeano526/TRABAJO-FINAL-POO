@@ -24,3 +24,5 @@ C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TR
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.dibujo.resources
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.buscador2.resources
 C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.LOGIN.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.CRONOMETRO.resources
+C:\Users\antho\source\repos\POO\TRABAJO FINAL POO\TRABAJO FINAL POO\obj\Debug\TRABAJO_FINAL_POO.RELOJ.resources
